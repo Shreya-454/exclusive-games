@@ -6,9 +6,9 @@ const BackToTop = () => {
 
     const toggleVisible = () => {
         const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 300) {
+        if (scrolled > 1000) {
             setVisible(true);
-        } else if (scrolled <= 300) {
+        } else if (scrolled <= 1000) {
             setVisible(false);
         }
     };
