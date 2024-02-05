@@ -23,7 +23,7 @@ const BackToTop = () => {
     window.addEventListener("scroll", toggleVisible);
     return (
         <div> 
-            <button className="group animate-bounce  flex justify-center items-center p-2 w-[45px] h-[45px] rounded-full  bg-green-blue fixed right-[1.7%] bottom-[10px] z-30 transition-all ease-linear duration-300 "
+            <button className="group animate-bounce  flex justify-center items-center p-2 sm:w-[45px] sm:h-[45px] w-[30px] h-[30px] rounded-full  bg-green-blue fixed right-[1.7%] bottom-[10px] z-30 transition-all ease-linear duration-300 "
                 onClick={scrollToTop}
                 style={{
                     display: visible ? "flex " : "none",
