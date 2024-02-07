@@ -37,7 +37,7 @@ function App() {
       </div>
     ) : (
     <div className="bg-[#00141B] overflow-x-clip">
-      <div className="bg-[url(./assets/images/herobg.webp)] min-h-screen bg-cover bg-center bg-no-repeat">
+      <div className="bg-[url(./assets/images/herobg.webp)] min-h-screen bg-cover bg-center bg-no-repeat bg-fixed">
         <Nav />
         <Header />
       </div>
